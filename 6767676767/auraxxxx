@@ -1,0 +1,14 @@
+let pontos = 67
+let anosdecliente = 1
+let resultado = ""
+if (pontos <= 99 && pontos >0) {
+    resultado = "bronze";
+} else if (pontos >= 100 && pontos < 499) {
+    resultado = "prata";
+} else if (pontos >= 500 && pontos < 999) {
+    resultado = "ouro";
+} else if (pontos >=1000 && anosdecliente >= 1) {
+    resultado = "diamante";
+}
+console.log (resultado)
+
